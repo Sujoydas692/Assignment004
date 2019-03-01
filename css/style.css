@@ -5,6 +5,7 @@
 	padding: 0;
 }
 
+
 .container {
 	width: 1140px;
 	margin: 0 auto;
@@ -34,6 +35,7 @@ float: left;
 nav ul {
 
 list-style: none;
+padding-top: 6px;
 }
 nav ul li {
 
@@ -177,16 +179,6 @@ i.fa.fa-sign-in:after {
 
 .text ul li {
     display: inline-block;
-}
-
-.text ul li a {
-    text-decoration: none;
-    color: white;
-    background-color: #16da16;
-    margin: 13px;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 12px;
 }
 
 .one{
@@ -454,6 +446,10 @@ text-decoration: none;
     padding: 10px;
 }
 
+button:hover{
+    background-color: dodgerblue;
+}
+
 button{
 
     color: white;
@@ -461,7 +457,8 @@ button{
     border-radius: 10px;
     border:none;
     padding: 10px;
-    margin: 10px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 .blog-two{
@@ -539,6 +536,10 @@ button{
     padding: 10px;
     margin: 0px; 
 
+}
+
+.fa.fa-star-o.no.review {
+    background-color: gray;
 }
 
 
