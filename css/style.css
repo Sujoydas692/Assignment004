@@ -457,7 +457,7 @@ button{
     border-radius: 10px;
     border:none;
     padding: 10px;
-    margin: 0 auto;
+    margin: 0 4px;
     cursor: pointer;
 }
 
