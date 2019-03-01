@@ -327,6 +327,27 @@ text-decoration: none;
     background-color: #97E268;
 }
 
+.leave-msg a{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fa.fa-envelope-open-o{
+    padding: 5px 8px;
+}
+
+section.leave-msg{
+    position: fixed;
+    right: 0;
+    top: 63%;
+}
+
+section.leave-msg a:hover{
+    background-color: #66C430;
+}
+
 .four h1{
 margin: 10px auto;
             padding: 10px;
